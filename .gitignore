@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+.env
+.venv/
+venv/
+*.pickle
+*.joblib
+*.parquet
+*.feather
+*.dta
+*.sas7bdat
+*.csv.gz
+patient_data/
+restricted_data/
+.DS_Store
+Thumbs.db
+
+# The single verified deployment model below is intentionally versioned.
+# Do not add any patient-level data or additional fitted assets.
+!model/XGBoost_FINAL_TRAINING_ONLY_PIPELINE.pkl
