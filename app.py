@@ -322,6 +322,6 @@ with st.expander("Research-use limitations and applicability", expanded=True):
     )
 
 st.caption(
-    "Local audited build · no patient records are stored by this page · the model file is loaded from a "
-    "verified local path and is not included as a web upload."
+    "Audited research build · no patient records are stored by this page · the frozen model is accepted "
+    "only after its SHA-256, feature order, and class order are verified."
 )
